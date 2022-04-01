@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--title-color-light);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --base-color: #1f2276;
+    --body-color: #f9f9f9;
+    --title-color-light: #fff;
+    --title-color-second: #876bdc;
+    --text-color: #000;
+}
+
+body {
+    background: var(--body-color);
+    font: 500 1rem 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+header {
+    background: var(--base-color);
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    color: var(--title-color-light);
+    font: 700 1.75rem 'Montserrat', sans-serif;
+    font-size: 4rem;
+}
+svg {
+    fill: var(--title-color-second);
+}
+.container {
+    margin: 0 7.68rem;
+}
+
+#header {
+    height: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: 700 1.75rem 'Montserrat', sans-serif;
+}
+span {
+    color: var(--title-color-second);
+}
+.menu {
+    font: 400 1rem 'Montserrat', sans-serif;
+    list-style-type: none;
+    display: flex;
+    gap: 3.1875rem;
+}
+.menu a:nth-child() {
+    color: var(--title-color-second);
+}
+.menu a:active {
+    opacity: 0;
+}
+#inicio {
+    background-color: #512f89;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#inicio svg {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+
+section {
+    height: 100vh;
+}
+
+.paradigmas__programacao {
+    background-image: url("../img/linguagem-elixir-capa-tb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--title-color-light);
+    padding: 75px;
+}
+
+
+.bloco {
+    background-color: rgba(48, 42, 42, 0.589);
+    height:45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco > h3 {
+    padding: 0.5%;
+}
+
+.info__text {
+    padding: 1%;
+}
+
+.button__LerMais > a {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
